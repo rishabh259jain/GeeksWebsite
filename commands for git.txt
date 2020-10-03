@@ -1,0 +1,11 @@
+touch .gitignore
+git config --global user.name rishabh
+git config --global user.email rishabh259@gmail.com
+git init
+git add .							=> makes all the files/folders except ignored files come in staging area
+git commit -m "Initial Commit"					=> generates a commit locally
+git status 							=> just to check
+ssh-keygen -t rsa -b 4096 -C "rishabh259jain@gmail.com"
+cat <path to id_rsa.pub> 					=> to add this output key to github account
+git remote add origin <ssh url-git>				=> to connect with my github
+git push origin master						=> push in master branch
