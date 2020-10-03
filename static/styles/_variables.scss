@@ -1,0 +1,19 @@
+$primaryColor:#0D0149;
+$navImgHeight: 60px;
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+@mixin flex($direction:row) {
+    display:flex;
+    flex-direction:$direction;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+@mixin position($var:absolute,$Top:0px,$Left:0px){
+    position:$var;
+    top:$Top;
+    left:$Left;
+}

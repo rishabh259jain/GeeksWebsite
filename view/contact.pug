@@ -1,0 +1,14 @@
+extends base.pug
+
+block styles
+    style
+        |  header { position: relative;}
+        include ../static/styles/contact.css
+block content
+    h2 #{message}
+    <form action="/contact" method="POST">
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <input type="number" name="age" id="age" placeholder="Enter your age">
+        <textarea name="query" id="query" cols="30" rows="10" placeholder="Enter your query"></textarea>
+        <input type="submit" value="SUBMIT">
+    </form>

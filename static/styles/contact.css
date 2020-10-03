@@ -1,0 +1,13 @@
+p{
+    margin-top: 100px;
+}
+  
+  form{
+    display:flex;
+    flex-direction: column;
+  }
+  
+  input, textarea{
+    margin:10px auto;
+    width:60%;
+  }

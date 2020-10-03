@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  z-index: -2;
+  color: #0D0149;
+  height: 100vh;
+  width: 100%;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: url("../static/images/image2.jpg") no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+  z-index: -3;
+  opacity: 0.8;
+}
+
+#home h1 {
+  font-family: 'Russo One';
+  letter-spacing: 3px;
+  font-size: 50px;
+  text-align: center;
+}
+
+#home h2 {
+  color: #0D0149;
+  font-family: 'Special Elite';
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+#home span {
+  font-family: 'Pinyon Script';
+  font-size: 70px;
+  text-align: center;
+  color: #FFA33E;
+}
+
+#home #club {
+  font-size: 25px;
+  font-family: 'Monoton';
+  color: #0D0149;
+}
+
+#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  color: grey;
+  font-family: 'Open Sans';
+}
+
+#about h1 {
+  font-family: 'Special Elite';
+  font-size: 50px;
+  color: black;
+}
+
+#about p {
+  text-align: center;
+}
+
+#about div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#about div #PtoP {
+  font-family: 'Pinyon Script';
+  font-size: 60px;
+  color: #FFA33E;
+}
+
+#about div #learning {
+  font-family: 'Monoton';
+  font-size: 25px;
+  color: #0D0149;
+}
+
+#gallery {
+  height: 100vh;
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */

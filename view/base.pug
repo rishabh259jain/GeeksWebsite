@@ -1,0 +1,28 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        title #{title}
+        link(href="https://fonts.googleapis.com/css2?family=Monoton&family=Open+Sans:wght@400;600;700&family=Russo+One&family=Pinyon+Script&family=Special+Elite&display=swap" rel="stylesheet")
+        style
+            include ../static/styles/header.css
+            include ../static/styles/footer.css
+        block styles
+        block scripts
+    body
+        header
+            #logo
+                img(src="../static/images/pp.jpg" alt="RJIT GEEKS")
+            ul
+                li.nav-item 
+                    a(href="/") Home
+                li.nav-item 
+                    a(href="#about") About Us
+                li.nav-item 
+                    a(href="#gallery") Media and Gallery
+                li.nav-item 
+                    a(href="") Blog
+        block content
+        footer
+        |   Copyright © 2020 rjitgeeks.com | All rights reserved
